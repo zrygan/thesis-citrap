@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "ideas/automata-extraction.html",
-                "bFile": "ideas/automata-extraction.html",
+                "aFile": ".obsidian/plugins/webpage-html-export/data.json",
+                "bFile": ".obsidian/plugins/webpage-html-export/data.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: automata-extraction.html"
+              "title": "Diff: data.json"
             }
           }
         ]
@@ -181,8 +181,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5076613537669344",
+  "active": "fa85544b151a1b0b",
   "lastOpenFiles": [
+    "_config.yml",
     "ideas/Ideas.canvas",
     "site-lib/search-index.json",
     "site-lib/metadata.json",
