@@ -11,10 +11,17 @@
             "id": "5076613537669344",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "ideas/Ideas.canvas",
+                "viewState": {
+                  "x": -189.815673828125,
+                  "y": -352.4110107421875,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Ideas"
             }
           }
         ]
@@ -179,8 +186,8 @@
   },
   "active": "5076613537669344",
   "lastOpenFiles": [
-    "ideas/Ideas.canvas",
     "index.md",
+    "ideas/Ideas.canvas",
     "ideas/Automata Extraction.md",
     "papers/Papers.md",
     "papers/[GS22] Finite-State Text Processing.pdf",
