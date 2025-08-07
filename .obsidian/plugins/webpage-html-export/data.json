@@ -10,7 +10,7 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "",
+    "exportPath": "C:\\Users\\zrgnt\\Documents\\zrygan\\thesis-citrap\\docs",
     "filesToExport": [],
     "useFallbackRenderer": false,
     "addBodyClasses": true,

@@ -11,12 +11,14 @@
             "id": "6472fe553862f02b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "papers/[ZWS24] Automata Extraction from Transformers.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "[ZWS24] Automata Extraction from Transformers"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -179,15 +181,23 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "ca8c2224c460536d",
+  "active": "6472fe553862f02b",
   "lastOpenFiles": [
-    "papers/[GS22] Finite-State Text Processing.pdf",
-    "papers/[Kle51] Representation of Events in Nerve Nets and Finite Automata.pdf",
-    "Welcome.md",
-    "papers/[WGY20] Extracting Automata from Recurrent Neural Networks.pdf",
-    "papers/[ZWS24] Automata Extraction from Transformers.pdf",
-    "papers",
+    "docs/site-lib/search-index.json",
+    "docs/site-lib/metadata.json",
+    "docs/site-lib/scripts/webpage.js",
+    "docs/site-lib/styles/main-styles.css",
+    "docs/site-lib/styles/obsidian.css",
+    "docs/site-lib/styles/supported-plugins.css",
+    "docs/site-lib/styles/global-variable-styles.css",
+    "docs/site-lib/html/file-tree-content.html",
+    "docs/site-lib/scripts/graph-wasm.wasm",
+    "docs/site-lib/scripts/graph-wasm.js",
+    "docs/site-lib/scripts/graph-render-worker.js",
+    "docs/site-lib/media/favicon.png",
+    "docs/site-lib/media/6155340132a851f6089e.svg",
+    "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
     "README.md",
-    "thesis-citrap"
+    "Welcome.md"
   ]
 }
