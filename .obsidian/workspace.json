@@ -11,17 +11,14 @@
             "id": "5076613537669344",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "split-diff-view",
               "state": {
-                "file": "ideas/Ideas.canvas",
-                "viewState": {
-                  "x": -189.815673828125,
-                  "y": -352.4110107421875,
-                  "zoom": 0
-                }
+                "aFile": "ideas/automata-extraction.html",
+                "bFile": "ideas/automata-extraction.html",
+                "aRef": ""
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Ideas"
+              "icon": "diff",
+              "title": "Diff: automata-extraction.html"
             }
           }
         ]
@@ -186,21 +183,24 @@
   },
   "active": "5076613537669344",
   "lastOpenFiles": [
-    "index.md",
     "ideas/Ideas.canvas",
-    "ideas/Automata Extraction.md",
-    "papers/Papers.md",
-    "papers/[GS22] Finite-State Text Processing.pdf",
-    "papers/[Ang87] Learning Regular Sets from Queries and Counterexamples.pdf",
-    "docs/papers/[zws24]-automata-extraction-from-transformers.pdf",
-    "docs/papers/[wgy20]-extracting-automata-from-recurrent-neural-networks.pdf",
+    "site-lib/search-index.json",
+    "site-lib/metadata.json",
+    "site-lib/styles/main-styles.css",
+    "site-lib/styles/supported-plugins.css",
+    "site-lib/fonts/mathjax_typewriter-regular.woff",
     "README.md",
-    "papers/[Kle51] Representation of Events in Nerve Nets and Finite Automata.pdf",
-    "papers/[WGY20] Extracting Automata from Recurrent Neural Networks.pdf",
-    "papers/[ZWS24] Automata Extraction from Transformers.pdf",
-    "ideas",
-    "docs/papers/[kle51]-representation-of-events-in-nerve-nets-and-finite-automata.pdf",
-    "docs/site-lib/search-index.json",
+    "site-lib/styles/obsidian.css",
+    "site-lib/styles/global-variable-styles.css",
+    "site-lib/media/2308ab1944a6bfa5c5b8.svg",
+    "site-lib/media/favicon.png",
+    "site-lib/media/6155340132a851f6089e.svg",
+    "site-lib/html/file-tree-content.html",
+    "site-lib/scripts/graph-wasm.wasm",
+    "site-lib/fonts/mathjax_zero.woff",
+    "ideas/Automata Extraction.md",
+    "index.md",
+    "papers/Papers.md",
     "docs/site-lib/media/favicon.png",
     "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",

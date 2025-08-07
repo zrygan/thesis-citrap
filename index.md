@@ -1,3 +1,6 @@
+---
+icon: 🏠
+---
 Thesis idea and word blabbing.
 ## Proposed Topics
 1. Machine Translator for Bikol or Cebuano

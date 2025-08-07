@@ -1,3 +1,6 @@
+---
+icon: 📚
+---
 This directory contains all references (used and unused) for the entire knowledge base. Just keep adding stuff papers, books, and articles here (even if we're going to end up not using it).
 
 Below are the papers organized by type and topic:
