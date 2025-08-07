@@ -1,6 +1,18 @@
 {
 	"nodes":[
+		{"id":"57638e10e91d2b6d","type":"group","x":-460,"y":-480,"width":871,"height":460,"label":"Read this first!"},
+		{"id":"899e9e7ff12d6eee","type":"text","text":"## Coming up with ideas\nLooking at literature there seems to be two *flavors* of NLP:\n1. **Machine Learning**.\n2. **Rule-based Systems**.\n\n**When to go (1)**, when we have a lot of corpora or datasets to munch through.\n\n**When to go (2)**, when we need efficiency and the language in question is a **low-resource** language (a language with limited linguistic resources or data).","x":-20,"y":-460,"width":411,"height":420,"color":"2"},
+		{"id":"4d3a68e18d7b6d7e","type":"text","text":"# Flavor 2: Rule-Based Systems","x":3,"y":246,"width":388,"height":93,"color":"6"},
+		{"id":"ee1b787809a2e02f","type":"text","text":"# Flavor 1: Machine Learning","x":-440,"y":246,"width":388,"height":93,"color":"6"},
+		{"id":"2de8a9e94191cca5","type":"text","text":"## Why?\n- Tagalog (and majority of the Philippine languages) are low-resource.\n- Majority of NLP research has its focus on machine learning, neural networks, etc. thus isolating those languages that are low-resource or people who do not have the capacity to train those.","x":3,"y":420,"width":388,"height":271},
+		{"id":"9a234fdb488a29fa","type":"text","text":"# Automata Extraction\n>[!hint] Motivation and Background\n>Neural networks are not transparent (we don't really know what the neural network knows). Hence, if we have a neural network trained over an alphabet $\\Sigma$ we can extract what that neural network knows by constructing a DFA $A$ over $\\Sigma$.\n>\n>This extraction is done by Angluin's L* Algorithm and a minimally adequate teacher.\n\n**Idea**: By training a Transformer $T$ from Tagalog corpora and an oracle $\\mathcal{O}$, we may extract all the possible sentences $T$ knows as the DFA $A$.\n\n>[!warning] Scrapped... why?\n>Only works on regular languages. And, some Tagalog (or majority of human-languages) have some non-regular grammar rules.\n>\n>> Maybe we can take a subset of grammars and check if this actually works.\n\nReferences:\n[[[Ang87] Learning Regular Sets from Queries and Counterexamples.pdf|Ang87]], [[[GS22] Finite-State Text Processing.pdf|GS22]], [[[Kle51] Representation of Events in Nerve Nets and Finite Automata.pdf|Kle51]], [[[WGY20] Extracting Automata from Recurrent Neural Networks.pdf|WGY20]], [[[ZWS24] Automata Extraction from Transformers.pdf|ZWS24]].\n\nLong version: [[Automata Extraction]]","x":700,"y":20,"width":600,"height":545,"color":"3"},
 		{"id":"c91193d89efd4bc0","type":"text","text":"# Ideas Board\nThis canvas and directory contains all ideas we have come up with.","x":-440,"y":-460,"width":304,"height":160,"color":"3"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"91d263e2b0aadfbe","fromNode":"c91193d89efd4bc0","fromSide":"right","toNode":"899e9e7ff12d6eee","toSide":"left","toEnd":"none","color":"3"},
+		{"id":"2c9a20975133f3c5","fromNode":"57638e10e91d2b6d","fromSide":"bottom","toNode":"4d3a68e18d7b6d7e","toSide":"top","toEnd":"none"},
+		{"id":"4864f31bc009beb2","fromNode":"57638e10e91d2b6d","fromSide":"bottom","toNode":"ee1b787809a2e02f","toSide":"top","toEnd":"none"},
+		{"id":"1324f5cdd0b89c37","fromNode":"4d3a68e18d7b6d7e","fromSide":"right","toNode":"9a234fdb488a29fa","toSide":"left","toEnd":"none"},
+		{"id":"ea46f33222b3618c","fromNode":"4d3a68e18d7b6d7e","fromSide":"bottom","toNode":"2de8a9e94191cca5","toSide":"top","toEnd":"none"}
+	]
 }

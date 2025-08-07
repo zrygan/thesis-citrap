@@ -1,3 +1,7 @@
+---
+tags:
+  - scrapped
+---
 >[!warning] This idea is **scrapped**
 >Automata Extraction only works on regular languages, since Philippine grammar is non-regular (it is safe to say that majority, if not all, human languages are non-regular). Then we cannot use Automata Extraction for a neural network on a Philippine language.
 

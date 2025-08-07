@@ -33,9 +33,9 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "papers": "📚",
-  "index.md": "🏠",
   "ideas": "💡",
-  "papers/Papers.md": "📚",
-  "ideas/Ideas.canvas": "💡"
+  "ideas/Ideas.canvas": "💡",
+  "Index.md": "🏠",
+  "library": "📚",
+  "library/Library.md": "📚"
 }

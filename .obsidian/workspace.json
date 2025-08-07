@@ -11,14 +11,17 @@
             "id": "5076613537669344",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "canvas",
               "state": {
-                "aFile": ".obsidian/plugins/webpage-html-export/data.json",
-                "bFile": ".obsidian/plugins/webpage-html-export/data.json",
-                "aRef": ""
+                "file": "ideas/Ideas.canvas",
+                "viewState": {
+                  "x": 336.02665067973874,
+                  "y": 64.15921923988739,
+                  "zoom": -0.6709357238310092
+                }
               },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "icon": "lucide-layout-dashboard",
+              "title": "Ideas"
             }
           }
         ]
@@ -181,27 +184,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa85544b151a1b0b",
+  "active": "5076613537669344",
   "lastOpenFiles": [
-    "_config.yml",
+    "ideas/Automata Extraction.md",
     "ideas/Ideas.canvas",
+    "Index.md",
+    "README.md",
+    "library/[JM23] Speech and Language Processing.pdf",
+    "library/[WGY20] Extracting Automata from Recurrent Neural Networks.pdf",
+    "library/[Ang87] Learning Regular Sets from Queries and Counterexamples.pdf",
+    "library/Library.md",
+    "library/[GS22] Finite-State Text Processing.pdf",
+    "_config.yml",
     "site-lib/search-index.json",
     "site-lib/metadata.json",
     "site-lib/styles/main-styles.css",
     "site-lib/styles/supported-plugins.css",
     "site-lib/fonts/mathjax_typewriter-regular.woff",
-    "README.md",
-    "site-lib/styles/obsidian.css",
-    "site-lib/styles/global-variable-styles.css",
     "site-lib/media/2308ab1944a6bfa5c5b8.svg",
     "site-lib/media/favicon.png",
     "site-lib/media/6155340132a851f6089e.svg",
-    "site-lib/html/file-tree-content.html",
-    "site-lib/scripts/graph-wasm.wasm",
-    "site-lib/fonts/mathjax_zero.woff",
-    "ideas/Automata Extraction.md",
-    "index.md",
-    "papers/Papers.md",
     "docs/site-lib/media/favicon.png",
     "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
