@@ -11,30 +11,12 @@
             "id": "6472fe553862f02b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
+                "file": "papers/[ZWS24] Automata Extraction from Transformers.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3fd948caf79184b8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "839221bac3bc53e5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file-text",
+              "title": "[ZWS24] Automata Extraction from Transformers"
             }
           }
         ]
@@ -94,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7f6063f1561bb161",
@@ -198,10 +179,15 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "fa85544b151a1b0b",
+  "active": "ca8c2224c460536d",
   "lastOpenFiles": [
-    "README.md",
+    "papers/[GS22] Finite-State Text Processing.pdf",
+    "papers/[Kle51] Representation of Events in Nerve Nets and Finite Automata.pdf",
     "Welcome.md",
+    "papers/[WGY20] Extracting Automata from Recurrent Neural Networks.pdf",
+    "papers/[ZWS24] Automata Extraction from Transformers.pdf",
+    "papers",
+    "README.md",
     "thesis-citrap"
   ]
 }
