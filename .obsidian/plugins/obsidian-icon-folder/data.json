@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "💽",
       "💡",
       "🏠",
       "📃",
@@ -37,5 +38,6 @@
   "ideas/Ideas.canvas": "💡",
   "Index.md": "🏠",
   "library": "📚",
-  "library/Library.md": "📚"
+  "library/Library.md": "📚",
+  "docs": "💽"
 }

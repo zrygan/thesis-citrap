@@ -1,3 +1,6 @@
+---
+icon: 🏠
+---
 Research ideas and word blabbing in Natural Language Processing (NLP).
 
 ## Conferences, Journals, Papers, & References
