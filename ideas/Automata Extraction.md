@@ -7,7 +7,7 @@ dg-publish: true
 >Automata Extraction only works on regular languages, since Philippine grammar is non-regular (it is safe to say that majority, if not all, human languages are non-regular). Then we cannot use Automata Extraction for a neural network on a Philippine language.
 
 Work started with [[[kle51]-representation-of-events-in-nerve-nets-and-finite-automata.pdf|Kle51]] and recently worked on by [[[wgy20]-extracting-automata-from-recurrent-neural-networks.pdf|WGY20]].
-
+Testing
 **DFA Extraction** is a procedure of extracting a DFA $A$ *over* some alphabet $\Sigma$ from a Recurrent Neural Networks (RNNs) $R$ *trained* over $\Sigma$. We can say that $A$ is extracted from $R$ if $$(\forall s_{1}\in \mathcal{L}(A))\iff(s_{1} \text{ can be produced by }R)$$They do this by **Exact Learning** (by Angluin's L* Algorithm [[[Ang87] Learning Regular Sets from Queries and Counterexamples.pdf|Ang87]]), we have an oracle[^1] that can answer two types of questions:
 1. Membership Query (MQ): "Does $R$ accept the string $s$?"
 2. Equivalence Query (EQ): "Is $A$ correct? If not, provide a *counterexample*."
