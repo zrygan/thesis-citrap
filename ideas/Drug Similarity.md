@@ -1,3 +1,8 @@
+---
+tags:
+  - working
+dg-publish: true
+---
 **Problems**: 
 - How can we compute the similarity of two drugs $X$ and $Y$. 
 - If $X$ is a generic name and $Y$ is a brand name, how can we calculate similarity?
@@ -39,7 +44,6 @@ We need a domain-specific language model that specifically looks at drug named a
 Thankfully [VSR+23](https://academic.oup.com/bib/article/24/4/bbad226/7197744) with their [PharmBERT](https://huggingface.co/Lianglab) BERT model provides a recent solution.
 
 > Since this BERT model is only recent, this adds to the motivation for pursuing this research.
-
 ## Proposed Idea
 We identify the gap:
 1. Existing LASA-based methods ([[[KD05] Automatic identification of confusable drug names.pdf|]]) do not leverage recent advances in transformer-based language models.

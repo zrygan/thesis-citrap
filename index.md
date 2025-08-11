@@ -1,5 +1,9 @@
 ---
 icon: 🏠
+tags:
+  - working
+dg-publish: true
+dg-home: true
 ---
 Research ideas and word blabbing in Natural Language Processing (NLP).
 
