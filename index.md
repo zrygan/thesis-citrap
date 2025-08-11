@@ -1,12 +1,4 @@
----
-icon: 🏠
-tags:
-  - working
-dg-publish: true
-dg-home: true
----
 Research ideas and word blabbing in Natural Language Processing (NLP).
-
 ## Conferences, Journals, Papers, & References
 - NLP (in general): [[[JM23] Speech and Language Processing.pdf|JM23]]
 - Rule-based Systems: [[[GS22] Finite-State Text Processing.pdf]]

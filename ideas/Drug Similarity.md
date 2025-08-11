@@ -1,7 +1,6 @@
 ---
 tags:
   - working
-dg-publish: true
 ---
 **Problems**: 
 - How can we compute the similarity of two drugs $X$ and $Y$. 
@@ -12,13 +11,11 @@ dg-publish: true
 - Drug prescribing errors due to look-alike and sound-alike (LASA) persists [LGL+19](https://qualitysafety.bmj.com/content/qhc/28/11/908.full.pdf).
 - This becomes a pavement to explore string similarity algorithms with modern transformers (BERT) as assistants.
 ## Methods: what was done already?
-**Title**: A hybrid approach for drug similarity computation
-
-### Similarity Algorithms
+This looks at methods for string similarity.
 ### String-Matching Algorithms
 Since the problem is with both look-alike (*orthographic*) and sound-alike (*phonetic*) we can use similarity algorithms for both orthographic and phonetic strings.
 #### Orthographic Similarity
-
+- [[[HKA+19] Exact String Matching Algorithms.pdf|HKA+19]]
 > To work on, maybe we need to do a separate literature on this.
 #### Phonetic Matching
 - Phonetic Alignment due to [Kon03](https://webdocs.cs.ualberta.ca/~kondrak/papers/chum.pdf).
@@ -45,6 +42,8 @@ Thankfully [VSR+23](https://academic.oup.com/bib/article/24/4/bbad226/7197744) w
 
 > Since this BERT model is only recent, this adds to the motivation for pursuing this research.
 ## Proposed Idea
+**Title**: A hybrid procedure for drug similarity computation
+
 We identify the gap:
 1. Existing LASA-based methods ([[[KD05] Automatic identification of confusable drug names.pdf|]]) do not leverage recent advances in transformer-based language models.
 2. PharmBERT by VSR+23 is not systematically evaluated for LASA detection or brand–generic matching.
